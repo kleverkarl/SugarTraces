@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<title>SugarTraces</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size: 16px;}
+img {margin-bottom: -8px;}
+</style>
+<body class="w3-content w3-black" style="max-width:1500px;">
+
+<!-- Header with Slideshow -->
+<header class="w3-display-container w3-center">
+  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i></button>
+  <div class="w3-animate-opacity">
+    <img class="w3-image" src="/w3images/app.png" alt="Image 1" style="min-width:500px" width="1500" height="1000">
+    <div class="w3-display-bottomright w3-padding-large w3-hide-small" style="width:35%">
+      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
+        <h1 class="w3-xlarge">Download SugarTraces</h1>
+        <hr class="w3-opacity">
+        <p>Available on Android and iOS</p>
+        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i></button></p>
+      </div>
+    </div>
+  </div>
+ 
+</header>
+
+<!-- The App Section -->
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    <div class="w3-col l8 m6">
+      <h1 class="w3-jumbo"><b>SugarTraces</b></h1>
+      <h1 class="w3-xxxlarge w3-text-teal"><b>What is SugarTraces?</b></h1>
+      <p>SugarTraces is a mobile health application, which aims to help users with prediabetes and diabetes to live a healthier lifestyle by maintaining healthy blood glucose levels. 
+	  The feedback system is placed to respond to glucose readings that makes this application interactive and entertaining. 
+	  Apart from this, updates will be provided to the user based on the readings it receives which unlocks achievements. 
+	  This serves as a reward system that incentivizes consistent use, thus becoming an effective tool for behavior change for the user.</p>
+      <button class="w3-button w3-green w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
+        <i class="fa fa-download"></i> Download SugarTraces
+      </button>
+      <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i> </p>
+    </div>
+    <div class="w3-col l4 m6">
+      <img src="/w3images/unnamed.png" class="w3-image w3-right w3-hide-small" width="335" height="471">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <button class="w3-button w3-block w3-padding-large w3-green" onclick="document.getElementById('download').style.display='block'">
+          <i class="fa fa-download"></i> Download SugarTraces
+        </button>
+        <img src="/w3images/unnamed.png" class="w3-image w3-margin-top" width="335" height="471">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="download" class="w3-modal w3-animate-opacity">
+  <div class="w3-modal-content" style="padding:32px">
+    <div class="w3-container w3-white">
+      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
+      <h2 class="w3-wide">DOWNLOAD</h2>
+      <p>Download SugarTraces in the App Store or Google Play</p>
+      <div class="w3-center">
+      <button type="button" class="w3-button  w3-padding-large w3-green w3-margin-bottom " onclick="location.href='https://play.google.com/store/apps/details?id=com.sugartraces';">Download on Android <i class="fa fa-android w3-large"></i> </button>
+	  <button type="button" class="w3-button  w3-padding-large w3-red w3-margin-bottom" onclick="location.href='https://apps.apple.com/us/app/sugartraces/id1447347955';" >Download on iOS <i class="fa fa-apple w3-large"></i> </button>
+	  
+	  </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Features Section -->
+<div class="w3-padding-64 w3-white">
+	<div class="w3-row-padding w3-center">
+  <h1 class="w3-jumbo w3-center"><b>Features</b></h1>
+  
+  <div class="w3-col l7 m6">
+	<h1 class="w3-xxlarge w3-text-teal"><b>Logging Data </b></h1>
+	<p>Data regarding your blood glucose is saved whenever you log your information in.</p>
+	</div>
+	<div class="w3-col l5 m6">
+      <img src="/w3images/reading.jpg" class="w3-image w3-center w3-hide-small" width="235" height="371">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="/w3images/reading.jpg" class="w3-image w3-margin-top" width="235" height="371">
+      </div>
+    </div>
+  
+  </div>
+  
+</div>
+<div class="w3-padding-8 w3-white">
+	<div class="w3-row-padding w3-center">
+  
+  <div class="w3-col l7 m6">
+	<h1 class="w3-xxlarge w3-text-teal"><b>Statistics</b></h1>
+	<p class="w3-padding-large">The data and information that is logged is easily and readily available for viewing purposes using graphs and statistics, based on the logged data through time.</p>
+	</div>
+	<div class="w3-col l5 m6">
+      <img src="/w3images/IMG_2364.png" class="w3-image w3-center w3-hide-small" width="235" height="371">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="/w3images/IMG_2364.png" class="w3-image w3-margin-top" width="235" height="371">
+      </div>
+    </div>
+  
+  </div>
+  
+</div>
+
+<div class="w3-padding-64 w3-white">
+	<div class="w3-row-padding w3-center">
+  
+  <div class="w3-col l7 m6">
+	<h1 class="w3-xxlarge w3-text-teal"><b>Profile Page</b></h1>
+	<p class="w3-padding-large">Your personal data can be easily viewed, along with the number of days that normal blood glucose levels have been logged in a row.</p>
+	</div>
+	<div class="w3-col l5 m6">
+      <img src="/w3images/IMG_2362.png" class="w3-image w3-center w3-hide-small" width="235" height="371">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="/w3images/IMG_2362.png" class="w3-image w3-margin-top" width="235" height="371">
+      </div>
+    </div>
+  
+  </div>
+  
+</div>
+
+<div class="w3-padding-16 w3-white">
+	<div class="w3-row-padding w3-center">
+  
+  <div class="w3-col l7 m6">
+	<h1 class="w3-xxlarge w3-text-teal "><b>Achievements</b></h1>
+	<p class="w3-padding-large">While using the application, achievements may be unlocked. Can you unlock them all?</p>
+	</div>
+	<div class="w3-col l5 m6">
+      <img src="/w3images/IMG_2365.png" class="w3-image w3-center w3-hide-small" width="235" height="371">
+      <div class="w3-center w3-hide-large w3-hide-medium">
+        <img src="/w3images/IMG_2365.png" class="w3-image w3-margin-top" width="235" height="371">
+      </div>
+    </div>
+  
+  </div>
+  
+</div>
+
+<div class="w3-padding-64 w3-light-grey">
+  <div class="w3-row-padding">
+    
+    <div class="w3-col l8 m6">
+      <h1 class="w3-xxxlarge w3-text-red"><b>Want to help the development?</b></h1>
+      <p>We are always open to volunteers! Please let us know if you would like to help in the research of this project. Please email us at <b>androiddev@ittc.up.edu.ph</b> if you are interested.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+</body>
+</html>
